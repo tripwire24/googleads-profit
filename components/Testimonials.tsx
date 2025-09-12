@@ -6,21 +6,21 @@ import { ArrowRightIcon } from './icons/ArrowRightIcon';
 
 const testimonialsData = [
   {
-    quote: "The Profit Leak Check was an eye-opener. Tripwire found three major areas of wasted spend in our Google Ads account that our previous agency had completely missed. Their fixes improved our lead quality almost overnight.",
-    name: "Sarah Jenkins",
-    company: "CEO, MarketGrid",
-    avatar: "S", // Simple initial for avatar
+    quote: "Our accountant at Rapid recommended the Profit Leak Check. It was the best free advice we've ever received. Tripwire identified exactly where our Google Ads budget was being wasted, and gave us a simple plan to fix it. Our ROAS is up 35%.",
+    name: "John Carter",
+    company: "Director, EcoBuild Supplies",
+    avatar: "J",
   },
   {
-    quote: "I was skeptical about a 'free audit', but this was pure value. No hard sell, just a clear, actionable report that we could implement ourselves. We've since cut our CPA by 20% by following their advice.",
-    name: "David Chen",
-    company: "Founder, Innovate Co.",
-    avatar: "D",
+    quote: "Finally, a digital marketing audit that speaks our language. Tripwire didn't just talk about clicks and impressions; they focused on cost-per-acquisition and bottom-line impact. It's clear they understand the financial side of advertising.",
+    name: "Emily Vance",
+    company: "CFO, TechLogix",
+    avatar: "E",
   },
   {
-    quote: "As a client of Rapid Accounting, I trust their recommendations. This partnership is a perfect example. Tripwire Digital gave us a second opinion that was both professional and incredibly insightful. Highly recommended.",
-    name: "Maria Rodriguez",
-    company: "Marketing Director, Fusion Dynamics",
+    quote: "I was expecting a big sales pitch, but I just got honest, actionable insights. The report was clear, the debrief was straight to the point, and there was zero pressure to sign a retainer. This is how marketing services should be.",
+    name: "Mark Stephenson",
+    company: "Owner, FreshFare Deliveries",
     avatar: "M",
   },
 ];

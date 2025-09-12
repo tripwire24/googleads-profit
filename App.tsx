@@ -43,9 +43,7 @@ export default function App() {
   const conversionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    // A/B Test: Randomly select a variant on component mount
-    const selectedVariant = variants[Math.floor(Math.random() * 2)]; // Only for first two H1 variants
-    setVariant(selectedVariant);
+    // A/B test removed to lock in the first headline variant.
     
     // GA4 Event (example): Fire view_promotion on hero view
     // window.gtag('event', 'view_promotion', { promotion_name: 'Profit Leak Check' });
