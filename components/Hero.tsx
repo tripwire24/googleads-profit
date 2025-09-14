@@ -39,7 +39,7 @@ export const Hero: React.FC<HeroProps> = ({ h1, ctaText, onPrimaryCtaClick, onSe
               See how it works
             </button>
           </div>
-            <p className="text-sm text-brand-gray-500 mt-6">Limited to 10 audits this month.</p>
+            <p className="text-sm text-brand-gray-500 mt-6">Limited to 5 audits this month.</p>
             <p className="text-sm text-brand-gray-400 mt-10">In partnership with Rapid Accounting Ltd.</p>
         </div>
       </div>
