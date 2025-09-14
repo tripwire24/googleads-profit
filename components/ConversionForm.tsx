@@ -64,6 +64,14 @@ export const ConversionForm = forwardRef<HTMLElement, ConversionFormProps>((prop
 
             if (response.ok) {
                 setSubmitted(true);
+                // Fire GA4 event for lead generation
+                if (window.gtag) {
+                    window.gtag('event', 'generate_lead', {
+                        'form_name': 'Profit Leak Check',
+                        'value': 1, // Assign a nominal value to the lead
+                        'currency': 'NZD' // Based on the .co.nz domain in footer
+                    });
+                }
             } else {
                 throw new Error("Form submission failed");
             }
