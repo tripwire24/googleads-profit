@@ -34,6 +34,11 @@ const variants: Variant[] = [
   // { h1: "...", cta: "Show me where the money’s going" },
 ];
 
+declare global {
+  interface Window {
+    gtag?: (command: string, action: string, params?: { [key: string]: any }) => void;
+  }
+}
 
 export default function App() {
   const [variant, setVariant] = useState<Variant>(variants[0]);
@@ -46,7 +51,9 @@ export default function App() {
     // A/B test removed to lock in the first headline variant.
     
     // GA4 Event (example): Fire view_promotion on hero view
-    // window.gtag('event', 'view_promotion', { promotion_name: 'Profit Leak Check' });
+    if (window.gtag) {
+      window.gtag('event', 'view_promotion', { promotion_name: 'Profit Leak Check' });
+    }
 
     const handleScroll = () => {
       if (window.scrollY > 200) {

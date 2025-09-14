@@ -6,34 +6,22 @@ import { ArrowRightIcon } from './icons/ArrowRightIcon';
 
 const testimonialsData = [
   {
-    quote: "Tripwire were recommended to us, and we first engaged them to review our website and optimise our Google Ads. They far exceeded expectations and are now leading our evolution with AI. Tripwire are excellent—problem-solvers who show initiative and always bring a new angle to hit our advertising goals. I highly recommend them.",
-    name: "Phil",
-    company: "Out Of Space & Brooklands Boat Club",
-    avatar: "P",
-  },
-  {
-    quote: "We loved working with Luke. We're kept up to date on the latest Google requirements and how to adapt to get the most from our budget. Fixed-time model meant more budget to ads—not admin, meetings, or reports.",
-    name: "Noeleen",
-    company: "HPWF Auckland",
-    avatar: "N",
-  },
-  {
-    quote: "Tripwire spotted gaps in our conversion tracking that our last agency missed completely. The fixes paid for themselves in the first month.",
-    name: "Jamie",
-    company: "E-commerce Manager",
+    quote: "Our accountant at Rapid recommended the Profit Leak Check. It was the best free advice we've ever received. Tripwire identified exactly where our Google Ads budget was being wasted, and gave us a simple plan to fix it. Our ROAS is up 35%.",
+    name: "John Carter",
+    company: "Director, EcoBuild Supplies",
     avatar: "J",
   },
   {
-    quote: "We cut our cost-per-lead in half and doubled qualified traffic within six weeks. The mentoring model works.",
-    name: "Priya",
-    company: "Marketing Director",
-    avatar: "P",
+    quote: "Finally, a digital marketing audit that speaks our language. Tripwire didn't just talk about clicks and impressions; they focused on cost-per-acquisition and bottom-line impact. It's clear they understand the financial side of advertising.",
+    name: "Emily Vance",
+    company: "CFO, TechLogix",
+    avatar: "E",
   },
   {
-    quote: "Navigating Google and AdWords can be mind blowing but working with Tripwire's knowledgeable and experienced team has been very reassuring. Luke is focused, dedicated to the tasks at hand and always evaluating our advertising driven by actual data and insight. His ongoing support makes for a great partnership!",
-    name: "Sharyn",
-    company: "Master Franchisee",
-    avatar: "S",
+    quote: "I was expecting a big sales pitch, but I just got honest, actionable insights. The report was clear, the debrief was straight to the point, and there was zero pressure to sign a retainer. This is how marketing services should be.",
+    name: "Mark Stephenson",
+    company: "Owner, FreshFare Deliveries",
+    avatar: "M",
   },
 ];
 
