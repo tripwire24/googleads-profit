@@ -1,5 +1,4 @@
 import React, { useState, forwardRef, useEffect, useRef } from 'react';
-import { CalendlyEmbed } from './CalendlyEmbed';
 
 interface ConversionFormProps {}
 
@@ -148,9 +147,16 @@ export const ConversionForm = forwardRef<HTMLElement, ConversionFormProps>((prop
                         </div>
                     ) : (
                         <div className="text-center">
-                            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Thanks. Your request is in.</h2>
-                            <p className="text-lg text-brand-gray-300 mb-10">Check your email for confirmation. The final step is to pick a time for your debrief below.</p>
-                            <CalendlyEmbed />
+                            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Thank You!</h2>
+                            <p className="text-lg text-brand-gray-300 mb-10">Your request has been submitted. We'll be in touch shortly via email with the next steps.</p>
+                            <a
+                                href="https://tripwiredigital.co.nz"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block bg-brand-teal text-white font-bold py-4 px-8 rounded-lg text-lg hover:bg-teal-500 focus:outline-none focus:ring-4 focus:ring-brand-teal focus:ring-opacity-50 transition-all duration-300 transform hover:scale-105"
+                            >
+                                Learn More About Tripwire
+                            </a>
                         </div>
                     )}
                 </div>
